@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 /* Global Style */
 .wrapper {
-	max-width: 90%;
+	max-width: 80%;
 	margin: 0 auto;
 }
 
@@ -85,5 +85,45 @@ header nav a {
 }
 
 header .logo {
-	margin-left: 380px;
+	margin-left: 180px;
+}
+
+/* Hero style*/
+
+.hero {
+	float: left;
+}
+
+.hero-img{
+	float: right;
+	width: 60%;
+}
+
+.hero h1 {
+	font-size: 75px;
+	margin: 60px 50px 0px;
+}
+
+.hero h1 span {
+	margin-left: 50px;
+}
+
+.hero a {
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	padding: 5px 60px;
+	margin: 20px 95px;
+}
+
+.hero-img img {
+	width: 60%;
+	margin: 20px 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
