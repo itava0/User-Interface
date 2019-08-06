@@ -64,3 +64,26 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* Global Style */
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+/* Header style*/
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+
+}
+
+header nav a {
+	text-decoration: none;
+	margin: 0 20px;
+	color: gray;
+}
+
+header .logo {
+	margin-left: 380px;
+}
