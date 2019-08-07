@@ -168,7 +168,10 @@ p {
 }
 
 /* Header style*/
-
+header {
+	height: 10vh;
+	margin-bottom: 50px;
+}
 header nav {
 	display: inline-block;
 	margin-top: 35px;
@@ -182,7 +185,9 @@ header nav a {
 }
 
 header .logo {
+	display: inline-block;
 	margin-left: 180px;
+ vertical-align: middle;
 }
 
 /* Hero style*/
@@ -210,8 +215,8 @@ header .logo {
 	text-decoration: none;
 	border: 1px solid black;
 	color: black;
-	padding: 5px 60px;
-	margin: 20px 95px;
+	padding: 5px 75px;
+	margin: 20px 65px;
 }
 
 .hero-img img {
